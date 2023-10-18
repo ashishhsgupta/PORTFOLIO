@@ -1,0 +1,57 @@
+.page_flex{
+    display: flex;
+}
+
+/* HTML MODEL PAGE */
+
+.html_model{
+    position: relative;
+    background-color: rgb(240, 241, 245);
+    width: 75% !important;
+    margin-top: 40px !important;
+    margin-left: 50px !important;
+    border-radius: 10px;
+    border: 3px solid rgb(238, 188, 238);
+}
+.html_content{
+    position: relative;
+    margin-left: 20px;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.html_para{
+    color: black;
+    margin-top: -35px;
+}
+.git_skills{
+    line-height: 2;
+}
+.add_skills{
+    text-align: left;
+    position: relative;
+   width: auto !important;
+}
+.skill_column{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.skill_column>input{
+    list-style: none;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+}
+.skill_column>button{
+    list-style: none;
+    padding: 5px;
+    width: 60px;
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+    color: white;
+    border: 2px solid rgb(142, 247, 178);
+    background-color: blueviolet;
+    list-style: none;
+}
+

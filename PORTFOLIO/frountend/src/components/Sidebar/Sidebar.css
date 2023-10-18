@@ -1,0 +1,28 @@
+.sidebar_container{
+    max-width: 20%;
+    background-color: rgb(6, 6, 37);
+}
+.sidebar_link {
+    display: flex;
+   color: white;
+   list-style: none;
+   font-size: 20px;
+   line-height: 0.5;
+   text-decoration: none;
+   padding-left: 15px;
+   width: 200px;
+   cursor: pointer;
+}
+.sidebar_link, .sidebar_list{
+    padding: 16px;
+}
+.sidebar_link>img{
+    width: 45px;
+    height: 45px;
+}
+.sidebar_link:hover{
+    background-color:#1A5276;
+}
+
+
+

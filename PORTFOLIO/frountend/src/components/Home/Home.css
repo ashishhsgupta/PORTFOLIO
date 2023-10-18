@@ -1,0 +1,130 @@
+.bg_img{
+    background-image: linear-gradient(79deg, #030304c6, #18171fe9 48%, #020202); 
+    width: 100%;
+}
+.round{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(225, 42, 42);
+    border-radius: 50%;
+    box-shadow:  5px 5px 0px #c1c1c1,
+    -5px -5px 0px #ffffff;
+    margin-left: 65rem;
+    margin-top: 25px;
+}
+.middle_round{
+    display: flex;
+    justify-content: space-evenly;
+}
+ .round2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(225, 42, 42);
+    border-radius: 50%;
+    box-shadow:  5px 5px 0px #c1c1c1,
+    -5px -5px 0px #ffffff;
+}
+.round3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(233, 238, 219);
+    border-radius: 50%;
+    box-shadow:  5px 5px 0px red,
+    -5px -5px 0px red;
+}
+.round4{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(225, 42, 42);
+    border-radius: 50%;
+    box-shadow:  5px 5px 0px #c1c1c1,
+    -5px -5px 0px #ffffff;
+    margin-left: 50rem;
+}
+.vProfile{
+    line-height: 10;
+}
+.vProfile> a> button{
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 3px solid rgb(233, 101, 101);
+}
+.vProfile>button{
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background: rgb(233, 101, 101);
+    font-size: 20px;
+    border: 3px solid rgb(233, 101, 101);
+}
+
+.home_class1{
+    position: relative;
+    background-color: rgba(226, 157, 155, 0.113);
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(239, 195, 239);
+}
+
+.home_container{
+    display: flex;
+    background:none;
+    line-height: 2;
+}
+.home_class1{
+    width: 100%;
+}
+.home_class2{
+    height: 6rem;
+    background: none;
+    margin-left: 33.33rem;
+}
+.home_class2 >img{
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid rgb(51, 51, 228);
+    margin-top: 10px;
+}
+.home_class3{
+  font-size: 22px;
+  font-weight: bolder;
+  background: none;
+  color: blueviolet;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+}
+.home_class4{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-style: bold;
+    color: rgb(85, 12, 152);
+}
+
+.home_class5{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-style: bold;
+    color: rgb(16, 7, 42);
+    cursor: pointer;
+}
+.home_class6{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 6rem;
+}
+.home_class7{
+    margin-left: 6rem;
+}
+.resume{
+    margin-left: 55rem;
+    font-size: 20px;
+}

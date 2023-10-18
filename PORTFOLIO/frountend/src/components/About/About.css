@@ -1,0 +1,50 @@
+.page_flex{
+    display: flex;
+}
+
+/* Qualifications: */
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #d8e0f4;
+  }
+  .Q_table{
+    text-align: center;
+    align-items: center;
+    margin-left: 15rem;
+    margin-top: 20px;
+    line-height: 2.5;
+  }
+
+   /* Project data-- */
+
+   .project_data{
+    margin-left: 80px;
+    margin-top: 20px;
+    line-height: 2.5;
+   }
+   .project_data, .Q_table{
+    position: relative;
+    background-color: rgba(226, 157, 155, 0.113);
+    width: 75%;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(239, 195, 239);
+}
+.project_subdata{
+  position: relative;
+  margin-left: 20px;
+  font-size: 17px;
+  line-height: 1.5;
+}
